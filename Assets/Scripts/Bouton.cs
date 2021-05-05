@@ -11,6 +11,7 @@ public class Bouton : MonoBehaviour
     public bool Actif = false;
 
     Rigidbody body;
+    // MODIF !
 
         void Start() {
             body = GetComponent<Rigidbody>();

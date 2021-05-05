@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class PlatFollow : MonoBehaviour
 {
-    bool test = false;
-    GameObject target;
+    public GameObject Player;
 
-    void OnCollisionStay(Collision other) {
-        
-        Vector3 Corrpos = other.gameObject.transform.position - gameObject.transform.position;
-        target = other.gameObject;
-        
+    public void OnCollison(Collision other) {
+        Player = other.gameObject;
+        if (other.gameObject.tag == "Player")
+        { 
+            Player.transform.parent = this.gameObject.transform;
+        }
     }
 
-    private void Update() {
-        if(test){
-            target.gameObject.transform.position = gameObject.transform.position + Corrpos;
-        }
+    void OnCollisionExit(Collision other) {
+        Player = other.gameObject;
+        Player.transform.parent = null;
     }
 }
