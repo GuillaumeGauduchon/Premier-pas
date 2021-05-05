@@ -773,7 +773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8c8612a6fb19394b8720f44172007ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vitesse: 0.1
+  vitesse: 0.05
   target: {fileID: 1930336404}
   Position1: {fileID: 1863490361}
   Position2: {fileID: 1135813049}
@@ -2322,7 +2322,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh47212
+  m_Name: pb_Mesh78048
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
