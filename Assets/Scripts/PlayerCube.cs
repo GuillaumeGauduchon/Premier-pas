@@ -52,7 +52,15 @@ public class PlayerCube : MonoBehaviour
 
     void focusCube(){
         newCamera objCam = GameObject.FindObjectOfType<Camera>().GetComponent<newCamera>();
-        objCam.controlledCube = gameObject;       
+        objCam.controlledCube = gameObject;
+        objCam.Focus = true;
+        if (objCam.controlledCube.tag == "Giant") {
+            objCam.isGiant = true;
+        }
+        else {
+            objCam.isGiant = false;
+        }
+        
     }
 
     void resetControl(){
@@ -91,6 +99,7 @@ public class PlayerCube : MonoBehaviour
             objCam.controlledCube = gameObject ;
             isControlled = true;
             UpdateControlChild();
+            focusCube();
         }
     }
 }
