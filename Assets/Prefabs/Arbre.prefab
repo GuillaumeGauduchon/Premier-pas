@@ -388,6 +388,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Tp_Target: {fileID: 0}
   isKillable: 1
+  shard: {fileID: 7640425467891767419, guid: b4d4fd4019b3bb64299c611ce1d1e82f, type: 3}
+  count: 100
 --- !u!136 &4755758471954359093
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -414,8 +416,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6316034ea148cbf47b3e5244fbf9296f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  count: 16
-  shard: {fileID: 2403999813978524529, guid: a2c3504f6f5ba044f93c2ce770e18279, type: 3}
+  count: 100
+  shard: {fileID: 7918448734806209141, guid: 9575400c8584a6140bc58448ff15f2c7, type: 3}
   trigger: 0
 --- !u!1001 &2847190873733628372
 PrefabInstance:
