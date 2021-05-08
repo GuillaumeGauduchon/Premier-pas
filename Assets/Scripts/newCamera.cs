@@ -29,7 +29,7 @@ public class newCamera : MonoBehaviour
             }
         }
 
-        float x = controlledCube.transform.position.x +posx;
+        float x = controlledCube.transform.position.x + posx;
         float y = controlledCube.transform.position.y + posy;
         float z = controlledCube.transform.position.z + posz;
         transformCam.position = new Vector3(x, y, z);

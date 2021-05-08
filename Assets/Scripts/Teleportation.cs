@@ -7,8 +7,8 @@ public class Teleportation : MonoBehaviour
     public Transform Tp_Target;
     public bool isKillable =false;
 
-     public GameObject shard;
-     public int count = 16;
+    public GameObject shard;
+    public int count = 16;
 
     public void Explode() {
 
