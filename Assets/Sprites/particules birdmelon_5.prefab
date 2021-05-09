@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 426322912791691516}
   - component: {fileID: 1722777909132734913}
   - component: {fileID: 4529645795606424446}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: particules birdmelon_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -30,7 +30,7 @@ public class Teleportation : MonoBehaviour
     }
     
     void OnTriggerEnter(Collider other) {
-        if(Tp_Target != null) {
+        if(Tp_Target != null && other.gameObject.tag != "FX") {
             other.gameObject.transform.position = Tp_Target.position;
             if (shard != null) {
                  Explode();

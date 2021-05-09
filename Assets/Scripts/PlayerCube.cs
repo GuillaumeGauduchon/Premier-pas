@@ -13,9 +13,7 @@ public class PlayerCube : MonoBehaviour
     public bool canJump = true;
     public bool IsPlayerCube = false;
     private bool isOnGround = true;
-
-    //Variables des autres C#
-
+    
     Rigidbody body;
 
     
@@ -52,10 +50,13 @@ public class PlayerCube : MonoBehaviour
 
     void focusCube(){
         newCamera objCam = GameObject.FindObjectOfType<Camera>().GetComponent<newCamera>();
+
         objCam.controlledCube = gameObject;
         objCam.Focus = true;
+
         if (objCam.controlledCube.tag == "Giant") {
             objCam.isGiant = true;
+            
         }
         else {
             objCam.isGiant = false;

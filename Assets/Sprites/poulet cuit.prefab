@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3714563622185417764}
   - component: {fileID: 5588023786848051250}
   - component: {fileID: 1855047961932980945}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: poulet cuit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
